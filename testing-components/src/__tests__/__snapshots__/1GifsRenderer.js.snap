@@ -20,24 +20,3 @@ exports[`<Gifs /> Renderer with snapshot & renderer 1`] = `
   <div />
 </div>
 `;
-
-exports[`<Gifs /> with snapshot & renderer 1`] = `
-<div>
-  <form
-    onSubmit={[Function]}
-  >
-    <input
-      onChange={[Function]}
-      placeholder="Search for a Gif"
-      type="text"
-      value=""
-    />
-    <button
-      type="submit"
-    >
-      search
-    </button>
-  </form>
-  <div />
-</div>
-`;

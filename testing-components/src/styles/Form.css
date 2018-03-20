@@ -1,0 +1,26 @@
+.form {
+  padding-top: 10vh;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid MediumAquamarine;
+  font-size: 1.5em;
+  transition: all .3s ;
+}
+
+.form button {
+  color: #fff;
+  padding: 10px;
+  margin-left: 10px;
+  border: 0px;
+  border-radius: 2px;
+  background-color: MediumAquamarine;
+  font-size: 1.5em;
+  transition: all .3s ease-in-out;
+}
+
+.form button:hover {
+  background-color: CadetBlue;
+}
