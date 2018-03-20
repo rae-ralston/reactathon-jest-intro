@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Gifs /> Renderer with snapshot & renderer 1`] = `
+exports[`<App /> Renderer with snapshot & renderer 1`] = `
 <div
   className="App"
 >
