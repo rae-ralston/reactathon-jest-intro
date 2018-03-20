@@ -3,8 +3,8 @@ import { shallow } from 'enzyme'
 
 import Gifs from '../Gifs'
 
-describe('<Gifs /> Enzyme', () => {
-  it('with snapshot & renderer', () => {
+describe('<Gifs />', () => {
+  it('with enzyme', () => {
 
   });
 })
