@@ -12,6 +12,9 @@ rachel@rachelralston.com  ||  [twitter](http://www.twitter.com/rachelralston)  |
     ```Bash
     $ git clone REPO_URL react-testing-intro && cd react-testing-intro
     ```
+1. from here, you can either
+    - `cd` into `/simple-example`, install dependancies/run tests to see an ultra simple example working.
+    - `cd` into `/testing-components` & follow the steps below to see testing react components irl.
 1. Install dependancies
     ```bash
     $ npm install
