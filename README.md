@@ -3,7 +3,9 @@ Rachel Ralston
 rachel@rachelralston.com  ||  [twitter](http://www.twitter.com/rachelralston)  ||  [linkedIn](http://www.linkedin.com/in/rachelralston)
 
 - [Slides](https://docs.google.com/presentation/d/1yCGndq7xgbBD-BgfhRB8y0a5-kw1SNnM-TCI0NQkxYY/edit?usp=sharing)
-
+- [jest docs](https://facebook.github.io/jest/)
+- [enzyme docs](https://github.com/airbnb/enzyme)
+- [react test utils](https://reactjs.org/docs/test-renderer.html)
 
 
 ## Steps to
