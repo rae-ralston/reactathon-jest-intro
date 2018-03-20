@@ -1,0 +1,11 @@
+{
+  "name": "reactathon-jest-intro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
