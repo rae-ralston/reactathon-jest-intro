@@ -1,10 +1,8 @@
 import React from 'react'
-import { shallow } from 'enzyme'
-// enzyme docs: https://github.com/airbnb/enzyme
+import renderer from 'react-test-renderer'
+import { shallow, mount } from 'enzyme'
 
 import App from '../App'
-import renderer from 'react-test-renderer'
-// docs for renderer: https://reactjs.org/docs/test-renderer.html
 
 describe('<App /> Renderer', () => {
   it('with snapshot & renderer', () => {
