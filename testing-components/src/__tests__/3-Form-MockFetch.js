@@ -1,5 +1,5 @@
 import React from 'react'
-import { mount, shallow } from 'enzyme'
+import { shallow } from 'enzyme'
 
 import Form from '../Form'
 
@@ -13,10 +13,10 @@ describe('<Form />', () => {
 
   it('with no state', () => {
     const url = 'http://adventures.for.me'
-    const mockFetch = jest.fn().mockReturnValueOnce(url)
-    const form = mount( <Form handleSubmit={mockFetch} />)
+    const mockFetch = jest.fn()
+    const form = shallow( <Form handleSubmit={mockFetch} />)
+    
     expect(form.instance().props.handleSubmit).toExist;
-
     expect(form.state()).toEqual({ searchTerm: '' });
 
     form.setState({ searchTerm: 'hello' })
