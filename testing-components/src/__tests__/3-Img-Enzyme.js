@@ -1,9 +1,9 @@
 import React from 'react'
 import { shallow } from 'enzyme'
 
-import Gifs from '../Gifs'
+import Img from '../Img'
 
-describe('<Gifs />', () => {
+describe('<Img />', () => {
   it('with enzyme', () => {
 
   });

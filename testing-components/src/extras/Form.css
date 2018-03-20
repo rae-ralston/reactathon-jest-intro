@@ -5,16 +5,20 @@
 .form input {
   padding: 10px;
   border-radius: 2px;
-  border: 1px solid MediumAquamarine;
+  border: 2px solid MediumAquamarine;
   font-size: 1.5em;
-  transition: all .3s ;
+  transition: all .3s ease-in-out;
+}
+
+.form input:hover {
+  background-color: PaleTurquoise;
 }
 
 .form button {
   color: #fff;
   padding: 10px;
   margin-left: 10px;
-  border: 0px;
+  border: 2px solid MediumAquamarine;
   border-radius: 2px;
   background-color: MediumAquamarine;
   font-size: 1.5em;
@@ -22,5 +26,5 @@
 }
 
 .form button:hover {
-  background-color: CadetBlue;
+  background-color: Turquoise;
 }

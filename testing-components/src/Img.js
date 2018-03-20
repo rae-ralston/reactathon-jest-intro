@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles/Img.css'
+import './extras/Img.css'
 
 const Img = ({ imageUrl }) => (
   imageUrl.length ?

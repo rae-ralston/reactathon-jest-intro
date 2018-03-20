@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Gifs from '../Gifs'
+import from from '../Form'
 
-describe('<Gifs />', () => {
+describe('<Form />', () => {
   it('with mocking', () => {
 
   });
