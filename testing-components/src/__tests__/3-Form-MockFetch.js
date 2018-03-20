@@ -4,22 +4,24 @@ import { shallow } from 'enzyme'
 import Form from '../Form'
 
 describe('<Form />', () => {
-  it('with mocking', () => {
-    const mockFetch = jest.fn()
-    const form = shallow( <Form handleSubmit={mockFetch} />)
+  let wrapper, mockFetch,
+    url = 'http://adventures.for.me',
+    myMock = jest.fn()
+  
+  beforeEach(() => {
+    mockFetch = new myMock()
+    wrapper = shallow( <Form handleSubmit={mockFetch} />)
+  });
 
-    expect(form).toMatchSnapshot();
+  it('with mocking', () => {
+    expect(wrapper).toMatchSnapshot();
   });
 
   it('with no state', () => {
-    const url = 'http://adventures.for.me'
-    const mockFetch = jest.fn()
-    const form = shallow( <Form handleSubmit={mockFetch} />)
-    
-    expect(form.instance().props.handleSubmit).toExist;
-    expect(form.state()).toEqual({ searchTerm: '' });
+    expect(wrapper.instance().props.handleSubmit).toExist;
+    expect(wrapper.state()).toEqual({ searchTerm: '' });
 
-    form.setState({ searchTerm: 'hello' })
-    expect(form.state()).toEqual({ searchTerm: "hello" });
+    wrapper.setState({ searchTerm: 'hello' })
+    expect(wrapper.state()).toEqual({ searchTerm: "hello" });
   });
 })

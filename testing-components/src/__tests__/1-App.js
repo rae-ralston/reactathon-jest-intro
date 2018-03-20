@@ -12,7 +12,8 @@ describe('<App /> Renderer', () => {
     expect(tree).toMatchSnapshot()
   });
 
-  it('with enzyme shallow', () => {
-    shallow(<App />)
+  it('with enzyme shallow, short syntax', () => {
+    let wrapper = shallow(<App />)
+    expect(wrapper).toMatchSnapshot()
   });
 })
